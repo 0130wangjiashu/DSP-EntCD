@@ -1,6 +1,6 @@
 <div align="center">
     <h2>
-        RS-Mamba for Large Remote Sensing Image Dense Prediction
+        DSP-EntCD: A Knowledge-Freezing, Entropy-Guided Remote Sensing Change Detection Network with Domain-Specific Pretraining
     </h2>
 </div>
 <br>
