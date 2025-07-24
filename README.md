@@ -8,7 +8,7 @@
 
 ## Introduction
 
-The repository for this project is the code implementation of the paper [RS-Mamba for Large Remote Sensing Image Dense Prediction](http://arxiv.org/abs/2404.02668), developed based on the environment of the [VMamba](https://github.com/MzeroMiko/VMamba).
+The repository for this project is the code implementation of the paper DSP-EntCD: A Knowledge-Freezing, Entropy-Guided Remote Sensing Change Detection Network with Domain-Specific Pretraining.
 
 If you find this project helpful, please give us a star ⭐️.
 
