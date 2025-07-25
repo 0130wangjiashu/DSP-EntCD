@@ -539,7 +539,7 @@ class EntCD(nn.Module):
 
         output = self.cd_stage1(t1,t2)
 
-        # EGASM1_part1:CBAM
+        # EGASM1_part1:CBAM---entropy-aware feature alignment
         res1 = self.CBAM1(output[0],output[4])
         res2 = self.CBAM2(output[1],output[5])
         res3 = self.CBAM3(output[2],output[6])
@@ -549,7 +549,7 @@ class EntCD(nn.Module):
         res3_cold = self.CBAM3(output_cold[2],output_cold[6])
         res4_cold = self.CBAM4(output_cold[3],output_cold[7])
 
-        # EGASM_part2:DEGA
+        # EGASM_part2:DEGA---entropy-based strategic selection
         adp1 = self.DEGA1(res1[0],res1_cold[0])
         adp2 = self.DEGA2(res2[0],res2_cold[0])
         adp3 = self.DEGA3(res3[0],res3_cold[0])
